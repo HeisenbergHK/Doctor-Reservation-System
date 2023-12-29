@@ -14,7 +14,8 @@ This is a simple Doctor Reservation System made by Hassan Kalantari
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+If you are familiar with Django and have a basic understanding of computer programming with Python then you are completely fine to understand this project.
+On the other hand, you need to learn it :)
 
 ### Prerequisites
 
@@ -22,27 +23,22 @@ These instructions will get you a copy of the project up and running on your loc
 2. Django version 5
 3. sqllite3 (This package is already installed with Python 3)
 
-```
-Give examples
-```
+### How To Run
 
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
+To see the result you need to run the Django project
 
 ```
-Give the example
+python manage.py runserver
 ```
 
-And repeat
+After this, you can open the given link in your browser
 
-```
-until finished
-```
+# Note!
 
-End with an example of getting some data out of the system or using it for a little demo
+This project only contain the back-enc of the project, the front-end is something else
+so we don't have front-end representation.
+
+a
 
 ## Running the tests
 
