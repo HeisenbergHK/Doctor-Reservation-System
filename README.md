@@ -33,64 +33,42 @@ python manage.py runserver
 
 After this, you can open the given link in your browser
 
-# Note!
+## Note!
 
-This project only contain the back-enc of the project, the front-end is something else
-so we don't have front-end representation.
+This project only contains the back-end of the project, the front-end is something else
+This project doesn't have a front-end representation.
 
-a
+## How to Login?
 
-## Running the tests
+After you enter the URL given to you, in your web browser write "given_url/admin"
+This will take you to the admin login page
+You need a super user so define a super user for yourself
 
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
+Go to the terminal and enter the following command:
 
 ```
-Give an example
+python manage.py createsuperuser
 ```
 
-### And coding style tests
+After this, you have your own username and password 
 
-Explain what these tests test and why
+### How does the System Work?
 
-```
-Give an example
-```
+you can add new Doctors
+You can add new Patients 
+you can add new Reservations
 
-## Deployment
+All the changes you made directly affect the database
 
-Add additional notes about how to deploy this on a live system
+The functionality of the program is working perfectly.
 
-## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+### Database!
 
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+There is a folder called database in the src folder that contains the code of the tables
+If you are curious about the standardization of the database you can go and check them
+I manage the database to be straightforward and understandable
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
-
