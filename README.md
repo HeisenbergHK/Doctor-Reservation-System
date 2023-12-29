@@ -2,15 +2,15 @@ Doctor Reservation System
 
 This is a simple Doctor Reservation System made by Hassan Kalantari
 
-I used the Django framework to simplfy the process of development
-If you already work with this framework, then the project schema is straintforward
-in order to run and see the final work you need to run the "mange.py" with the command "python manage.py runserver", after that you can see the result in your web browser
-I manage the database to be easy and straightforward
+I used the Django framework to simplify the process of development
+If you already work with this framework, then the project schema is straightforward
+to run and see the final work you need to run the "mange.py" with the command "python manage.py runserver", after that you can see the result in your web browser
+I manage the database to be straightforward
 
 
-# Project Title
+# Doctor Reservation System
 
-One Paragraph of project description goes here
+This is a simple Doctor Reservation System made by Hassan Kalantari
 
 ## Getting Started
 
@@ -18,7 +18,9 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+1. Python 3 (No Shit!)
+2. Django version 5
+3. sqllite3 (This package is already installed with Python 3)
 
 ```
 Give examples
